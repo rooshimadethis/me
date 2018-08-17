@@ -30,9 +30,9 @@ disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Permalinks
-permalink: /:title
-#permalink: /author/:author
-#permalink: /tag/:tag
+permalink: /soapbox/:title
+#permalink: /about/author/:author
+#permalink: /about/tag/:tag
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
