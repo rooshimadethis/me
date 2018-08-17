@@ -1,7 +1,7 @@
 ---
 layout: default
-current: home
-class: 'home-template'
+current: soapboxhome
+class: ''
 navigation: True
 ---
 
@@ -14,13 +14,21 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
+                <!--
                 {% if site.logo %}
                     <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
                 {% else %}
                     {{ site.title }}
                 {% endif %}
+                -->
+                Soap Box
             </h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+            <h2 class="site-description">
+                <!--
+                {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+                -->
+                Come up here with me
+            </h2>
         </div>
         {% include site-nav.html %}
     </div>
@@ -32,7 +40,7 @@ into the {body} of the default.hbs template -->
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
+            {%  include post-card-soapbox.html %}
         </div>
 
     </div>
