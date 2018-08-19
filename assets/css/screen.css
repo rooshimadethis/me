@@ -549,7 +549,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     position: relative;
     z-index: 50;
 }
-/* ^ Required to make .post-full-content:before/after z-index stacking work */
+/* ^ Required to make .homepost-full-content:before/after z-index stacking work */
 
 .post-full-header {
     margin: 0 auto;
@@ -1032,8 +1032,14 @@ Usage (In Ghost editor):
     border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
 }
 
-/* 6.*. Home post content */
-.post-full-content {
+/* 7.1.1. Home post content */
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+.homepost-full-content {
     position: relative;
     margin: 0 auto;
     padding: 70px 100px 0;
@@ -1045,17 +1051,17 @@ Usage (In Ghost editor):
 }
 
 @media (max-width: 1170px) {
-    .post-full-content {
+    .homepost-full-content {
         padding: 5vw 7vw 0;
     }
 }
 @media (max-width: 800px) {
-    .post-full-content {
+    .homepost-full-content {
         font-size: 1.9rem;
     }
 }
 
-.post-full-content:before {
+.homepost-full-content:before {
     content: "";
     position: absolute;
     top: 15px;
@@ -1069,7 +1075,7 @@ Usage (In Ghost editor):
     transform: rotate(-5deg);
 }
 
-.post-full-content:after {
+.homepost-full-content:after {
     content: "";
     position: absolute;
     top: 15px;
@@ -1083,44 +1089,43 @@ Usage (In Ghost editor):
     transform: rotate(5deg);
 }
 
-.no-image .post-full-content {
+.no-image .homepost-full-content {
     padding-top: 0;
 }
 
-.no-image .post-full-content:before,
-.no-image .post-full-content:after {
+.no-image .homepost-full-content:before,
+.no-image .homepost-full-content:after {
     display: none;
 }
 
-.kg-card-markdown {
+.home-kg-card-markdown {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 920px;
 }
 
-.post-full-content h1,
-.post-full-content h2,
-.post-full-content h3,
-.post-full-content h4,
-.post-full-content h5,
-.post-full-content h6,
-.post-full-content p,
-.post-full-content ul,
-.post-full-content ol,
-.post-full-content dl,
-.post-full-content pre,
-.post-full-content blockquote,
+.homepost-full-content h1,
+.homepost-full-content h2,
+.homepost-full-content h3,
+.homepost-full-content h4,
+.homepost-full-content h5,
+.homepost-full-content h6,
+.homepost-full-content p,
+.homepost-full-content ul,
+.homepost-full-content ol,
+.homepost-full-content dl,
+.homepost-full-content pre,
+.homepost-full-content blockquote,
 .post-full-comments,
 .footnotes {
     min-width: 100%;
 }
 
-.post-full-content li {
+.homepost-full-content li {
     word-break: break-word;
 }
 
-.post-full-content li p {
+.homepost-full-content li p {
     margin: 0;
 }
 
@@ -1129,84 +1134,66 @@ Usage (In Ghost editor):
     line-height: 1.5em;
 }
 
-.post-full-content a {
+.homepost-full-content a {
     color: #000;
     box-shadow: var(--blue) 0 -1px 0 inset;
 }
 
-.post-full-content a:hover {
+.homepost-full-content a:hover {
     color: var(--blue);
     text-decoration: none;
 }
 
-.post-full-content strong,
-.post-full-content em {
+.homepost-full-content strong,
+.homepost-full-content em {
     color: color(var(--darkgrey) l(-5%));
 }
 
-.post-full-content small {
+.homepost-full-content small {
     display: inline-block;
     line-height: 1.6em;
 }
 
-.post-full-content li:first-child {
+.homepost-full-content li:first-child {
     margin-top: 0;
 }
 
-.post-full-content img,
-.post-full-content video {
+.homepost-full-content img,
+.homepost-full-content video {
     display: block;
     margin: 1.5em auto;
     max-width: 1040px;
 }
 @media (max-width: 1040px) {
-    .post-full-content img,
-    .post-full-content video {
+    .homepost-full-content img,
+    .homepost-full-content video {
         width: 100%;
     }
 }
 
-
-/* Full bleed images (#full)
-Super neat trick courtesy of @JoelDrapper
-
-Usage (In Ghost edtior):
-
-![img](/some/image.jpg#full)
-
-*/
-.post-full-content img[src$="#full"] {
+.homepost-full-content img[src$="#full"] {
     max-width: none;
     width: 100vw;
 }
 
-
-/* Image captions
-
-Usage (In Ghost editor):
-
-![img](/some/image.jpg)
-<small>Your image caption</small>
-
-*/
-.post-full-content img + br + small {
+.homepost-full-content img + br + small {
     display: block;
     margin-top: -3em;
     margin-bottom: 1.5em;
 }
 
 
-.post-full-content iframe {
+.homepost-full-content iframe {
     margin: 0 auto;
 }
 
-.post-full-content blockquote {
+.homepost-full-content blockquote {
     margin: 0 0 1.5em;
     padding: 0 1.5em;
     border-left: #3eb0ef 3px solid;
 }
 
-.post-full-content blockquote p {
+.homepost-full-content blockquote p {
     margin: 0 0 1em 0;
     color: inherit;
     font-size: inherit;
@@ -1214,11 +1201,11 @@ Usage (In Ghost editor):
     font-style: italic;
 }
 
-.post-full-content blockquote p:last-child {
+.homepost-full-content blockquote p:last-child {
     margin-bottom: 0;
 }
 
-.post-full-content code {
+.homepost-full-content code {
     padding: 0 5px 2px;
     font-size: 0.8em;
     line-height: 1em;
@@ -1227,7 +1214,7 @@ Usage (In Ghost editor):
     border-radius: 3px;
 }
 
-.post-full-content pre {
+.homepost-full-content pre {
     overflow-x: auto;
     margin: 1.5em 0 3em;
     padding: 20px;
@@ -1240,26 +1227,26 @@ Usage (In Ghost editor):
     border-radius: 5px;
 }
 
-.post-full-content pre code {
+.homepost-full-content pre code {
     padding: 0;
     font-size: inherit;
     line-height: inherit;
     background: transparent;
 }
 
-.post-full-content pre code * {
+.homepost-full-content pre code * {
     color: inherit;
 }
 
-.post-full-content .fluid-width-video-wrapper {
+.homepost-full-content .fluid-width-video-wrapper {
     margin: 1.5em 0 3em;
 }
 
-.post-full-content hr {
+.homepost-full-content hr {
     margin: 4vw 0;
 }
 
-.post-full-content hr:after {
+.homepost-full-content hr:after {
     content: "";
     position: absolute;
     top: -15px;
@@ -1273,61 +1260,61 @@ Usage (In Ghost editor):
     transform: rotate(45deg);
 }
 
-.post-full-content h1,
-.post-full-content h2,
-.post-full-content h3,
-.post-full-content h4,
-.post-full-content h5,
-.post-full-content h6 {
+.homepost-full-content h1,
+.homepost-full-content h2,
+.homepost-full-content h3,
+.homepost-full-content h4,
+.homepost-full-content h5,
+.homepost-full-content h6 {
     color: color(var(--darkgrey) l(-5%));
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.post-full-content h1 {
+.homepost-full-content h1 {
     margin: 0.5em 0 0.2em 0;
     font-size: 4.6rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
-    .post-full-content h1 {
+    .homepost-full-content h1 {
         font-size: 2.8rem;
     }
 }
 
-.post-full-content h2 {
+.homepost-full-content h2 {
     margin: 0.5em 0 0.2em 0;
     font-size: 3.6rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
-    .post-full-content h2 {
+    .homepost-full-content h2 {
         font-size: 2.6rem;
     }
 }
 
-.post-full-content h3 {
+.homepost-full-content h3 {
     margin: 0.5em 0 0.2em 0;
     font-size: 2.8rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
-    .post-full-content h3 {
+    .homepost-full-content h3 {
         font-size: 2.2rem;
     }
 }
 
-.post-full-content h4 {
+.homepost-full-content h4 {
     margin: 0.5em 0 0.2em 0;
     font-size: 2.8rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
-    .post-full-content h4 {
+    .homepost-full-content h4 {
         font-size: 2.2rem;
     }
 }
 
-.post-full-content h5 {
+.homepost-full-content h5 {
     display: block;
     margin: 0.5em 0;
     padding: 1em 0 1.5em;
@@ -1339,25 +1326,25 @@ Usage (In Ghost editor):
     text-align: center;
 }
 @media (min-width: 1180px) {
-    .post-full-content h5 {
+    .homepost-full-content h5 {
         max-width: 1060px;
         width: 100vw;
     }
 }
 @media (max-width: 500px) {
-    .post-full-content h5 {
+    .homepost-full-content h5 {
         padding: 0 0 0.5em;
         font-size: 2.2rem;
     }
 }
 
-.post-full-content h6 {
+.homepost-full-content h6 {
     margin: 0.5em 0 0.2em 0;
     font-size: 2.3rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
-    .post-full-content h6 {
+    .homepost-full-content h6 {
         font-size: 2rem;
     }
 }
@@ -1395,17 +1382,17 @@ Usage (In Ghost editor):
         margin-bottom: 4vw;
         height: 350px;
     }
-    .post-full-content {
+    .homepost-full-content {
         padding: 0;
     }
-    .post-full-content:before,
-    .post-full-content:after {
+    .homepost-full-content:before,
+    .homepost-full-content:after {
         display: none;
     }
 }
 
 /* Tables */
-.post-full-content table {
+.homepost-full-content table {
     display: inline-block;
     overflow-x: auto;
     margin: 0.5em 0 2.5em;
@@ -1419,7 +1406,7 @@ Usage (In Ghost editor):
     vertical-align: top;
 }
 
-.post-full-content table {
+.homepost-full-content table {
     -webkit-overflow-scrolling: touch;
     background: radial-gradient(ellipse at left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(ellipse at right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
     background-attachment: scroll, scroll;
@@ -1427,20 +1414,20 @@ Usage (In Ghost editor):
     background-repeat: no-repeat;
 }
 
-.post-full-content table td:first-child {
+.homepost-full-content table td:first-child {
     background-image: linear-gradient(to right, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
     background-size: 20px 100%;
     background-repeat: no-repeat;
 }
 
-.post-full-content table td:last-child {
+.homepost-full-content table td:last-child {
     background-image: linear-gradient(to left, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
     background-position: 100% 0;
     background-size: 20px 100%;
     background-repeat: no-repeat;
 }
 
-.post-full-content table th {
+.homepost-full-content table th {
     color: var(--darkgrey);
     font-size: 1.2rem;
     font-weight: 700;
@@ -1450,12 +1437,18 @@ Usage (In Ghost editor):
     background-color: color(var(--whitegrey) l(+4%));
 }
 
-.post-full-content table th,
+.homepost-full-content table th,
 .post-full-content table td {
     padding: 6px 12px;
     border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
 }
- */
+
+
+
+
+
+
+
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */
 
