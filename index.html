@@ -51,13 +51,12 @@ into the {body} of the default.hbs template -->
                         {% endif %}
                         {% endfor %}
                         {% endif %}
-
-                        <h2 class="post-card-title">{{ post.title }}</h2>
-                        <section class="post-full-content">
-                            <div class="kg-card-markdown">
-                                {{ post.content }}
-                            </div>
-                        </section>
+                    </header>
+                    <section class="post-full-content" style="text-decoration: none;">
+                        <div class="kg-card-markdown">
+                            {{ post.content }}
+                        </div>
+                    </section>
                 </a>
             </div>
         </article>
