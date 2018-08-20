@@ -13,13 +13,14 @@ into the {body} of the default.hbs template -->
 <header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <div class="inner">
         <div class="site-header-content">
+            {% if site.logo %}
+            <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
+            {% else %}
+            {{ site.title }}
+            {% endif %}
             <h1 class="site-title">
                 <!--
-                {% if site.logo %}
-                    <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
-                {% else %}
-                    {{ site.title }}
-                {% endif %}
+
                 -->
                 Rooshi-made
             </h1>
@@ -34,12 +35,6 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         {% assign post = site.posts | where:"category", "home" | first %}
         <article >
-            {% if post.cover %}
-            <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
-                <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ post.cover }})"></div>
-            </a>
-            {% endif %}
-
                     <section class="homepost-full-content">
                         <div class="home-kg-card-markdown">
                             {{ post.content }}
