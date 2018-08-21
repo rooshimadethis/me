@@ -1,0 +1,20 @@
+## Pssst! Scroll down a bit!
+
+
+
+Welcome to *rooshi.me*! 
+
+It's best place to learn about me or anything I've ever thought about. 
+
+
+
+
+
+# The real 'About me' section
+
+![](https://lh3.googleusercontent.com/iBOdWv2oSfnSDOXcEWEzG_OVOsOAOEVY8NU_PDgZFnrLrQLA4uljCvLo9-7ISP7JzJ7vOEjofy7HuV1gOHxCVaSADkdIG-KsuGsHIx3xWeu1XazQDmrtiZNtycbHAmoiD5cmVqlBWyHvKRSkm2EFUuvGsvX2EiV5oUdj_71eyi2e8FFELiwNfAhOsRXTYwqsTKcDZvg9fpmO60z_WbevdWZH9i__UAuUfzcjGS3aylf4rVrXew4YVjBlIvNXBltiCrYu1OPfuDiE4JQio3xi3J0Jed58QuQHOZtzKuetCW1jcXvzSY4BsvogmZzE5jrTIhkiTgjS5x0Esb7khZHZ0NcN-o-lg_OpaRm6gDWHPd25VBEjx-c0YTJGrPkJ7VZLbYDeV02yU7SS_lcQ9F2rGsmHqpzJFaCnVOnZi7UdSVlyfkXoSN-cOMLSCCE-dv6s4N-ClAEz7iRTZkppie5Gac3kv_MkFbMTYO4JrKfI3f6TbC3iRjjvIh1y91XaekeiQ98Mw1RAYXHFaWvaJujd6a4eNjMCfApzD62m71_Nrf4k48cwTRDJLjuU0tzurjmgcPCvNUZOyuOEklQ-lqM5mLSq92urqekSQ23nXkfdQXInQXF6ye4_GffhFEsbLqDPb8Lw4rNGEV-R_X4npRZUwSvbBHRVm91ixg=w1169-h876-no)
+
+I'm a 
+
+
+

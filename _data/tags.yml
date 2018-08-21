@@ -10,3 +10,7 @@ satire:
   name: satire
   description: The most creative we can all get.
   cover: False
+products:
+  name: products
+  description: Only the best for you my friend
+  cover: assets/images/projects-cover.jpg
