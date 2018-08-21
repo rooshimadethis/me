@@ -4,11 +4,11 @@ getting-started:
   cover: False
 personal-projects:
   name: personal-projects
-  description: What I've put my time into.
+  description: What I've put my time into
   cover: assets/images/writing.jpg
 satire:
   name: satire
-  description: The most creative we can all get.
+  description: The most creative we can all get
   cover: False
 products:
   name: products
