@@ -11,11 +11,11 @@ paginate_path: "/soapbox/page:num/"
 
 
 # Website info
-title: Rooshi
-description: All you need
+title: rooooooshi
+description:
 cover: assets/images/welcomeheader.gif
 soapboxcover: assets/images/soap.jpg
-logo: assets/images/profile.gif
+logo: assets/images/profilephoto.jpg
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 
