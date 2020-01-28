@@ -3,6 +3,7 @@
 ## jekyll tips:
 
 "bundle exec jekyll serve" to build and serve (leave running)
+"bundle exec jekyll build" to build
 
 "gulp" to compile css (leave running)
 

@@ -38,7 +38,7 @@ body {
     height: 100%;
     background-position: center center;
     background-size: cover;
-    border-radius: 100%;
+    border-radius: 15px;
 }
 
 .hidden {
@@ -73,6 +73,7 @@ body {
     margin: 0 auto;
     max-width: 1040px;
     width: 100%;
+    border-radius: 15px;
 }
 
 /* Usage:
@@ -97,7 +98,7 @@ body {
     }
     .home-template .site-nav {
         position: relative;
-        top: -70px;
+        /*top: -70px;*/
     }
 }
 
@@ -164,8 +165,10 @@ body {
 }
 
 .site-logo {
-    margin-top: 175px;
-    max-height: 175px;
+    margin-top: 150px;
+    max-height: 150px;
+    border-radius: 15px;
+    box-shadow: rgba(255,255,255,0.3) 0 0 0 6px;
 }
 
 .site-description {
@@ -234,6 +237,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     line-height: 1em;
     font-weight: bold;
     letter-spacing: -0.5px;
+    border-radius: 15px;
 }
 
 .site-nav-logo:hover {
@@ -248,7 +252,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .nav {
     display: flex;
-    /*margin: 0 0 0 -12px;*/
+    margin: .5rem 0 0 0;
     padding: 0;
     list-style: none;
 }
@@ -259,16 +263,16 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .nav li a {
-    background-color: #4b4b4b;
+    background-color: black;
     color: white;
     padding: 1em 1.5em;
-    opacity: 0.8;
+    border-radius: 1px;
+    box-shadow: rgba(255,255,255,0.3) 0 0 0 3px;
 }
 
 .nav li a:hover {
-    background-color: #232323;
-    box-shadow: 0 5px 0 #090000;
-    opacity: 1.0;
+    opacity: 1;
+
 }
 
 .nav li a:active {
@@ -286,6 +290,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-shrink: 0;
     display: flex;
     align-items: center;
+    background-color: black;
 }
 
 .social-links a:last-of-type {
@@ -392,7 +397,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     min-height: 300px;
     background: #fff center center;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
     transition: all 0.5s ease;
 }
@@ -409,7 +414,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     overflow: hidden;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .post-card-image {
@@ -464,7 +469,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin-right: 5px;
     width: 25px;
     height: 25px;
-    border-radius: 100%;
+    border-radius: 15px;
 
     object-fit: cover;
 }
@@ -491,7 +496,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
         position: relative;
         flex: 1 1 auto;
-        border-radius: 5px 0 0 5px;
+        border-radius: 15px 0 0 15px;
     }
 
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image {
@@ -595,7 +600,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     height: 800px;
     background: var(--lightgrey) center center;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 @media (max-width: 1170px) {
@@ -803,7 +808,7 @@ Usage (In Ghost editor):
     line-height: 1em;
     font-weight: 400!important;
     background: var(--whitegrey);
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 .post-full-content pre {
@@ -816,7 +821,7 @@ Usage (In Ghost editor):
     font-size: 1.4rem;
     line-height: 1.5em;
     background: color(var(--darkgrey) l(-3%));
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .post-full-content pre code {
@@ -1214,7 +1219,7 @@ Usage (In Ghost editor):
     line-height: 1em;
     font-weight: 400!important;
     background: var(--whitegrey);
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 .homepost-full-content pre {
@@ -1227,7 +1232,7 @@ Usage (In Ghost editor):
     font-size: 1.4rem;
     line-height: 1.5em;
     background: color(var(--darkgrey) l(-3%));
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .homepost-full-content pre code {
@@ -1461,7 +1466,7 @@ Usage (In Ghost editor):
     border: color(var(--whitegrey) l(+2%)) 1px solid;
     text-align: center;
     background: color(var(--whitegrey) l(+4%));
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 .subscribe-form-title {
@@ -1503,7 +1508,7 @@ Usage (In Ghost editor):
     line-height: 1em;
     font-weight: normal;
     user-select: text;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: border-color 0.15s linear;
 
     -webkit-appearance: none;
@@ -1532,7 +1537,7 @@ Usage (In Ghost editor):
     color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
     color(var(--blue) lightness(-4%) saturation(-10%))
     );
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
     -webkit-font-smoothing: subpixel-antialiased;
@@ -1623,7 +1628,7 @@ Usage (In Ghost editor):
     font-size: 1.2rem;
     line-height: 1;
     font-weight: 500;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: all ease 0.2s;
 }
 
@@ -1664,7 +1669,7 @@ Usage (In Ghost editor):
     color: #fff;
     background: var(--darkgrey) center center;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
 }
 
@@ -1677,7 +1682,7 @@ Usage (In Ghost editor):
     left: 0;
     display: block;
     background: linear-gradient(135deg, rgba(0,40,60,0.8) 0%,rgba(0,20,40,0.7) 100%);
-    border-radius: 5px;
+    border-radius: 15px;
 
     backdrop-filter: blur(2px);
 }
@@ -2001,7 +2006,7 @@ Usage (In Ghost editor):
     margin: 0 0 20px 0;
     width: 100px;
     height: 100px;
-    box-shadow: rgba(255,255,255,0.1) 0 0 0 6px;
+    box-shadow: rgba(255,255,255,0.3) 0 0 0 6px;
 }
 
 .site-header-content .author-bio {
@@ -2319,7 +2324,7 @@ Usage (In Ghost editor):
     width: 2px;
     height: 2px;
     background: #fff;
-    border-radius: 100%;
+    border-radius: 15px;
 }
 
 .site-footer-nav a:first-of-type:before {
