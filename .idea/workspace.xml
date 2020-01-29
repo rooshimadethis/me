@@ -3,14 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/tags.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-card-soapbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post-card-blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-09-09-GArch.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-09-GArch.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshot-desktop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshot-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/welcomeheader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/welcomeheader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soapbox/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../production-me" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -41,16 +44,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.1.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents2\Github\working-me\_posts" />
-      <recent name="C:\Users\roosh\Documents\web\working-me\assets\images" />
-      <recent name="D:\Documents2\Github\working-me\assets\images" />
-      <recent name="D:\Documents2\Github\working-me\_includes" />
-      <recent name="D:\Documents2\Github\working-me\products" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\roosh\Documents\web\working-me\_drafts" />
       <recent name="D:\Documents2\Github\working-me\_drafts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roosh\Documents\web\working-me\_posts" />
+      <recent name="C:\Users\roosh\Documents\web\working-me\blog" />
+      <recent name="D:\Documents2\Github\working-me\_posts" />
+      <recent name="C:\Users\roosh\Documents\web\working-me\assets\images" />
+      <recent name="D:\Documents2\Github\working-me\assets\images" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,7 +96,8 @@
       <workItem from="1579131512843" duration="20000" />
       <workItem from="1579131591303" duration="66000" />
       <workItem from="1579131673777" duration="355000" />
-      <workItem from="1579319082666" duration="31275000" />
+      <workItem from="1579319082666" duration="36945000" />
+      <workItem from="1580256437383" duration="7811000" />
     </task>
     <servers />
   </component>
@@ -125,10 +129,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="745" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579457442396" />
-    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1579917863039">
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580243131102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1579917863039" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1580243131102" />
+    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1580265563768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580265563768" />
     <state x="41" y="190" key="run.anything.popup" timestamp="1579457133604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

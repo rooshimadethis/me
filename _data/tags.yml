@@ -1,16 +1,8 @@
-getting-started:
-  name: getting-started
-  description: False
-  cover: False
-personal-projects:
-  name: personal-projects
+projects:
+  name: projects
   description: What I've put my time into
   cover: assets/images/writing.jpg
-satire:
-  name: satire
-  description: The most creative we can all get
-  cover: False
-products:
-  name: products
-  description: Only the best for you my friend
-  cover: assets/images/projects-cover.jpg
+gallery:
+  name: gallery
+  description: Look at this
+  cover: assets/images/gallery.jpg

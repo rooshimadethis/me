@@ -7,14 +7,14 @@ language: 'en-us'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: "/"
 
-paginate_path: "/soapbox/page:num/"
+paginate_path: "/blog/page:num/"
 
 
 # Website info
 title: rooooooshi
 description:
 cover: assets/images/welcomeheader.gif
-soapboxcover: assets/images/soap.jpg
+blogcover: assets/images/soap.jpg
 logo: assets/images/profile.gif
 logo_dark: assets/images/favicon.png
 favicon: assets/images/profile.gif
@@ -32,7 +32,7 @@ disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Permalinks
-permalink: /soapbox/:title
+permalink: /blog/:title
 #permalink: /about/author/:author
 #permalink: /about/tag/:tag
 

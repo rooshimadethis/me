@@ -38,7 +38,7 @@ body {
     height: 100%;
     background-position: center center;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .hidden {
@@ -73,7 +73,7 @@ body {
     margin: 0 auto;
     max-width: 1040px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 /* Usage:
@@ -124,7 +124,7 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
+    background: rgba(0,0,0,0.0);
 }
 
 .site-header:after {
@@ -165,10 +165,10 @@ body {
 }
 
 .site-logo {
-    margin-top: 150px;
-    max-height: 150px;
-    border-radius: 15px;
-    box-shadow: rgba(255,255,255,0.3) 0 0 0 6px;
+    margin-top: 175px;
+    max-height: 175px;
+    border-radius: 5px;
+    /*box-shadow: 0 0 0 3px hsla(0,0%,0%,.3);*/
 }
 
 .site-description {
@@ -237,7 +237,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     line-height: 1em;
     font-weight: bold;
     letter-spacing: -0.5px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .site-nav-logo:hover {
@@ -263,20 +263,25 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .nav li a {
-    background-color: black;
+    background-color: rgba(255,255,255,0.35);
     color: white;
-    padding: 1em 1.5em;
-    border-radius: 1px;
-    box-shadow: rgba(255,255,255,0.3) 0 0 0 3px;
+    mix-blend-mode: difference;
+    padding: 0.75em 1.5em;
+    border-radius: 2px;
+    box-shadow: rgba(39,44,49,0.1) -2px 2px 15px, rgba(39, 44, 49, 0.2) 1px 3px 8px;;
 }
 
 .nav li a:hover {
-    opacity: 1;
-
+    background-color: rgba(255,255,255,1.0);
+    color: black;
+    box-shadow: 0 0 1px rgba(39,44,49,0.10), 0 3px 16px rgba(39, 44, 49,0.07);
+    transition: all 0.2s ease;
+    /*transform: translate3D(0, -1px, 0);*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 .nav li a:active {
-
 }
 
 .site-nav-right {
@@ -290,25 +295,33 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    background-color: black;
 }
 
 .social-links a:last-of-type {
-    padding-right: 20px;
+    margin-right: 20px;
+}
+.social-links a:last-of-type  {
+    margin-right: 20px;
 }
 
 .social-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 10px;
-    color: #fff;
-    opacity: 0.8;
+    background-color: rgba(255,255,255,0.35);
+    color: white;
+    margin: 0.25em 0.25em;
+    padding: 0.75em 0.75em;
+    border-radius: 2px;
+    box-shadow: rgba(39,44,49,0.1) -2px 2px 15px, rgba(39, 44, 49, 0.2) 1px 3px 8px;
 }
 
 .social-link:hover {
-    opacity: 1;
+    box-shadow: 0 0 1px rgba(39,44,49,0.10), 0 3px 16px rgba(39, 44, 49,0.07);
+    transition: all 0.2s ease;
+    /*transform: translate3D(0, -1px, 0);*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 .social-link svg {
@@ -317,7 +330,19 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .social-link-fb svg {
-    height: 1.5rem;
+    height: 1.8rem;
+}
+
+.social-link-fb:hover  {
+    background-color: #3b5998;
+}
+
+.social-link-tw svg {
+    height: 1.8rem;
+}
+
+.social-link-tw:hover  {
+    background-color: #00acee;
 }
 
 .social-link-wb svg {
@@ -397,7 +422,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     min-height: 300px;
     background: #fff center center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
     transition: all 0.5s ease;
 }
@@ -414,7 +439,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     overflow: hidden;
-    border-radius: 15px 15px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .post-card-image {
