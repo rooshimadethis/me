@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/tags.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/post-card-soapbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post-card-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-09-GArch.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-09-GArch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_drafts/1865-11-26-down-the-rabbit-hole.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/1865-11-26-down-the-rabbit-hole.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post_pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post_pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/welcomeheader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/welcomeheader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soapbox/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1579131591303" duration="66000" />
       <workItem from="1579131673777" duration="355000" />
       <workItem from="1579319082666" duration="36945000" />
-      <workItem from="1580256437383" duration="7811000" />
+      <workItem from="1580256437383" duration="10656000" />
     </task>
     <servers />
   </component>
@@ -133,17 +129,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1580243131102" />
-    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1580265563768">
+    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1580267412945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580265563768" />
+    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580267412945" />
     <state x="41" y="190" key="run.anything.popup" timestamp="1579457133604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="41" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579457133604" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579928148362">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580268145295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579928148362" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580268145295" />
   </component>
 </project>

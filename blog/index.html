@@ -1,6 +1,6 @@
 ---
 layout: default
-current: soapboxhome
+current: bloghome
 class: ''
 navigation: True
 ---
@@ -12,6 +12,7 @@ into the {body} of the default.hbs template -->
 <!-- The big featured header, it uses blog cover image as a BG if available -->
 <header class="site-header outer" style="background-image:  url({{site.baseurl }}{{ site.blogcover }}) ">
     <div class="inner">
+        {% include site-nav.html %}
         <div class="site-header-content">
             <h1 class="site-title">
                 <!--
@@ -28,9 +29,9 @@ into the {body} of the default.hbs template -->
                 {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
                 -->
                 <!-- subtitle here -->
+                heyyo
             </h2>
         </div>
-        {% include site-nav.html %}
     </div>
 </header>
 
