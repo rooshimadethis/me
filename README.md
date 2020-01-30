@@ -9,6 +9,8 @@
 
 _config.yml has the info for each section header
 
+you can put html in the markdown files
+
 todo:
 add linkedin like to nav top and bottom
 make front page gifs random

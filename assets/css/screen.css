@@ -39,6 +39,7 @@ body {
     background-position: center center;
     background-size: cover;
     border-radius: 5px;
+    image-orientation: from-image;
 }
 
 .hidden {
@@ -774,12 +775,13 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content video {
     display: block;
     margin: 1.5em auto;
-    max-width: 1040px;
+    max-width: 750px;
 }
 @media (max-width: 1040px) {
     .post-full-content img,
     .post-full-content video {
-        width: 100%;
+        width: 75%;
+        image-orientation: from-image;
     }
 }
 
@@ -1205,7 +1207,7 @@ Usage (In Ghost editor):
     margin: 1.5em auto;
     max-width: 1040px;
 }
-@media (max-width: 1040px) {
+@media (max-width: 750px) {
     .homepost-full-content img,
     .homepost-full-content video {
         width: 100%;

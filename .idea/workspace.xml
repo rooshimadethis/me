@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/1865-11-26-down-the-rabbit-hole.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/1865-11-26-down-the-rabbit-hole.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/post_pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post_pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/1863-11-19-gettysburg-address.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -40,16 +38,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.1.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\roosh\Documents\web\working-me\_drafts" />
-      <recent name="D:\Documents2\Github\working-me\_drafts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roosh\Documents\web\working-me\assets\images" />
       <recent name="C:\Users\roosh\Documents\web\working-me\_posts" />
       <recent name="C:\Users\roosh\Documents\web\working-me\blog" />
       <recent name="D:\Documents2\Github\working-me\_posts" />
-      <recent name="C:\Users\roosh\Documents\web\working-me\assets\images" />
       <recent name="D:\Documents2\Github\working-me\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\roosh\Documents\web\working-me\_drafts" />
+      <recent name="D:\Documents2\Github\working-me\_drafts" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,7 +91,10 @@
       <workItem from="1579131591303" duration="66000" />
       <workItem from="1579131673777" duration="355000" />
       <workItem from="1579319082666" duration="36945000" />
-      <workItem from="1580256437383" duration="10656000" />
+      <workItem from="1580256437383" duration="11455000" />
+      <workItem from="1580315272541" duration="480000" />
+      <workItem from="1580328595378" duration="1903000" />
+      <workItem from="1580355980960" duration="3975000" />
     </task>
     <servers />
   </component>
@@ -101,10 +102,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="528" y="203" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580356205004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580356205004" />
     <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579131641142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1579131641142" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580358249229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580358249229" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579132008301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
