@@ -4,5 +4,5 @@ projects:
   cover: assets/images/writing.jpg
 gallery:
   name: gallery
-  description: Look at this
+  description: you'll need good internet for this
   cover: assets/images/gallery.jpg

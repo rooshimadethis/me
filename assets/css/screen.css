@@ -774,14 +774,14 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content img,
 .post-full-content video {
     display: block;
+    max-width: 70%;
+    max-height: 70vh;
     margin: 1.5em auto;
-    max-width: 750px;
 }
 @media (max-width: 1040px) {
     .post-full-content img,
     .post-full-content video {
-        width: 75%;
-        image-orientation: from-image;
+        width: 100%;
     }
 }
 
