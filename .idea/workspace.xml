@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/tags.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/floating-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/floating-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf28.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf28.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/unflattering/uf8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/unflattering/uf8.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +87,7 @@
       <workItem from="1580256437383" duration="11455000" />
       <workItem from="1580315272541" duration="480000" />
       <workItem from="1580328595378" duration="1903000" />
-      <workItem from="1580355980960" duration="7947000" />
+      <workItem from="1580355980960" duration="8316000" />
     </task>
     <servers />
   </component>
