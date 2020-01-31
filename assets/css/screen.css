@@ -660,6 +660,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 1170px) {
@@ -743,8 +744,10 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-template .kg-card-markdown > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
+     font-size: 1.0em;
+    /*line-height: 1.5em;
+
+     */
 }
 
 .post-full-content a {
@@ -1174,8 +1177,9 @@ Usage (In Ghost editor):
 }
 
 .post-template .kg-card-markdown > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
+    font-size: 1.0em;
+    /*line-height: 1.5em;
+    */
 }
 
 .homepost-full-content a {

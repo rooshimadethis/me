@@ -9,8 +9,10 @@
       <change beforePath="$PROJECT_DIR$/assets/built/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/global.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/syntax.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/syntax.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/syntax.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/syntax.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
       <workItem from="1580328595378" duration="1903000" />
       <workItem from="1580355980960" duration="9605000" />
       <workItem from="1580410393707" duration="3934000" />
-      <workItem from="1580437340607" duration="7029000" />
+      <workItem from="1580437340607" duration="14987000" />
     </task>
     <servers />
   </component>

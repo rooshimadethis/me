@@ -12,6 +12,7 @@ _config.yml has the info for each section header
 you can put html in the markdown files
 
 todo:
+color scheme
 add linkedin like to nav top and bottom
 make front page gifs random
 change cover to <video instead of gif
