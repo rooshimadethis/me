@@ -777,6 +777,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     max-width: 70%;
     max-height: 70vh;
     margin: 1.5em auto;
+    box-shadow: rgba(39,44,49,0.36) 8px 14px 38px, rgba(39, 44, 49, 0.33) 1px 3px 8px;
 }
 @media (max-width: 1040px) {
     .post-full-content img,
@@ -1839,8 +1840,8 @@ Usage (In Ghost editor):
     display: flex;
     align-items: center;
     height: 60px;
-    border-bottom: rgba(0,0,0,0.06) 1px solid;
-    background: rgba(255,255,255,0.95);
+    border-bottom: rgba(0,0,0,0.06) 2px solid;
+    background: rgba(0,0,0,0.95);
     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
     transform: translate3d(0, -120%, 0);
 }
@@ -1861,10 +1862,18 @@ Usage (In Ghost editor):
     white-space: nowrap;
 }
 
+.floating-header-logo span {
+    display: flex;
+    align-items: center;
+    color: white;
+    line-height: 1.1em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
 .floating-header-logo a {
     display: flex;
     align-items: center;
-    color: var(--darkgrey);
     line-height: 1.1em;
     font-weight: 700;
 }
@@ -1887,7 +1896,6 @@ Usage (In Ghost editor):
     flex: 1;
     overflow: hidden;
     margin: 0;
-    color: #2e2e2e;
     font-size: 1.6rem;
     line-height: 1.3em;
     font-weight: bold;
@@ -1921,8 +1929,10 @@ Usage (In Ghost editor):
     display: flex;
     align-items: center;
     margin-right: 10px;
-    color: rgba(0,0,0,0.7);
-    font-weight: 500;
+    margin-top: 3px;
+    color: rgba(255,255,255,0.8);
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .floating-header-share-label svg {

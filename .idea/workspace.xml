@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="" />
+    <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-1-29-my-unflattering-friends.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-1-29-my-unflattering-friends.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +19,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1WS8M4FKsYzM4j0JXOyNz5o1l8x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -22,12 +43,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.1.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -42,6 +65,17 @@
       <recent name="C:\Users\roosh\Documents\web\working-me\_drafts" />
       <recent name="D:\Documents2\Github\working-me\_drafts" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="js.build_tools.gulp" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,7 +121,9 @@
       <workItem from="1580256437383" duration="11455000" />
       <workItem from="1580315272541" duration="480000" />
       <workItem from="1580328595378" duration="1903000" />
-      <workItem from="1580355980960" duration="8316000" />
+      <workItem from="1580355980960" duration="9605000" />
+      <workItem from="1580410393707" duration="3934000" />
+      <workItem from="1580437340607" duration="7029000" />
     </task>
     <servers />
   </component>
@@ -95,6 +131,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580437445342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580437445342" />
     <state x="528" y="203" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580356205004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -107,34 +147,94 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580358249229" />
+    <state x="862" y="100" width="581" height="630" key="DiffContextDialog" timestamp="1580439920665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="862" y="100" width="581" height="630" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580439920665" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579132008301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579132008300" />
-    <state width="745" height="188" key="GridCell.Tab.0.bottom" timestamp="1579457442396">
+    <state width="745" height="188" key="GridCell.Tab.0.bottom" timestamp="1580442368938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579457442396" />
-    <state width="745" height="188" key="GridCell.Tab.0.center" timestamp="1579457442396">
+    <state width="745" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580442368938" />
+    <state width="745" height="188" key="GridCell.Tab.0.center" timestamp="1580442368937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579457442396" />
-    <state width="745" height="188" key="GridCell.Tab.0.left" timestamp="1579457442396">
+    <state width="745" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580442368937" />
+    <state width="745" height="188" key="GridCell.Tab.0.left" timestamp="1580442368937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579457442396" />
-    <state width="745" height="188" key="GridCell.Tab.0.right" timestamp="1579457442396">
+    <state width="745" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580442368937" />
+    <state width="745" height="188" key="GridCell.Tab.0.right" timestamp="1580442368938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579457442396" />
+    <state width="745" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580442368938" />
+    <state width="745" height="176" key="GridCell.Tab.1.bottom" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.1.center" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.1.left" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.1.right" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.2.bottom" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.2.center" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.2.left" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.2.right" timestamp="1580440918073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
+    <state width="745" height="176" key="GridCell.Tab.3.bottom" timestamp="1580440918074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
+    <state width="745" height="176" key="GridCell.Tab.3.center" timestamp="1580440918074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
+    <state width="745" height="176" key="GridCell.Tab.3.left" timestamp="1580440918074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
+    <state width="745" height="176" key="GridCell.Tab.3.right" timestamp="1580440918074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="745" height="176" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
+    <state x="950" y="42" key="RollbackChangesDialog" timestamp="1580442398025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="950" y="42" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580442398025" />
+    <state x="555" y="59" key="SettingsEditor" timestamp="1580439254836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580439254836" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580243131102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1580243131102" />
-    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1580364773850">
+    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1580443734495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580364773850" />
+    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580443734495" />
     <state x="41" y="190" key="run.anything.popup" timestamp="1579457133604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
