@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/unflattering/cover.gif
 navigation: True
-title: (WIP)the unflattering pics of people i love
+title: the unflattering pics of people i love
 date: 2020-1-29 10:29:00
 tags: gallery
 class: post-template
@@ -11,10 +11,10 @@ subclass: 'post'
 author: rooshi
 ---
 
-I've taken more pictures in my last 4 months abroad than I have the entire rest of my life. 
+&nbsp;&nbsp;&nbsp;&nbsp;I've taken more pictures in my last 4 months abroad than I have the entire rest of my life. 
 
 <br>
-So many great memories that will be forgotten about or shared to a select group chat, but never posted to social media. It's a shame that only the top 1% of 1% of photos get chosen for that honor, but that's the way social media is. Therefore, here, in the most anti-social media platform possible, Rooshi's Blog, I will post unflattering pictures of the people I love and the memories I will never forget.
+&nbsp;&nbsp;&nbsp;&nbsp;So many great memories that will be forgotten about or shared to a select group chat, but never posted to social media. It's a shame that only the top 1% of 1% of photos get chosen for that honor, but that's the way social media is. Therefore, here, in the most anti-social media platform possible, Rooshi's Blog, I will post unflattering pictures of the people I love and the memories I will never forget.
 
 <br>
 (One thing though, I realized I love "live photos" because they really give you a sense of the vibe, so there are going to be a lot of gifs on this page.)
@@ -46,7 +46,7 @@ that splinter was in my finger and it took the surgical skills of mubi to take i
 <br>
 ![](/assets/images/unflattering/uf6.jpg)
 
-\*no description needed\*
+uhhhh
 {: style="text-align: center"}
 
 *National Museum of Modern and Contemporary Art, Seoul, South Korea*
@@ -55,7 +55,7 @@ that splinter was in my finger and it took the surgical skills of mubi to take i
 <br>
 ![](/assets/images/unflattering/uf7.jpg)
 
-pretty michael myers vibes
+michael myers style skincare
 {: style="text-align: center"}
 
 *Hongdae, Seoul, South Korea*
@@ -63,7 +63,7 @@ pretty michael myers vibes
 
 <br> ![](/assets/images/unflattering/uf8.jpg)
 
-ootd
+outfit of the day
 {: style="text-align: center"}
 
 *Gyeongbokgung Palace, Seoul, South Korea*
@@ -109,21 +109,14 @@ there was a lot of sleeping on all these trips
 {: style="text-align: center; font-size: 80%; font-weight: 100; "}
 
 <br>
-![](/assets/images/unflattering/uf14.jpg)
+<video autoplay="true" muted="true" loop="true">
+    <source src="/assets/images/unflattering/uf17.MP4" type="video/mp4">
+</video>
 
-oh you fancy huh
+a LOT of sleeping
 {: style="text-align: center"}
 
-*Chocolate Hills, Bohol, Philippines*
-{: style="text-align: center; font-size: 80%; font-weight: 100; "}
-
-<br>
-![](/assets/images/unflattering/uf15.jpg)
-
-loud sleeping
-{: style="text-align: center"}
-
-*Panglao Bay, Panglao, Philippines*
+*Moalboal -> Oslob, Cebu, Philippines*
 {: style="text-align: center; font-size: 80%; font-weight: 100; "}
 
 <br>
@@ -136,30 +129,116 @@ for some reason mubi looks like this when she sleeps
   
 *Moalboal -> Oslob, Cebu, Philippines*
 {: style="text-align: center; font-size: 80%; font-weight: 100; "}
-  
 
-<video autoplay="true" muted="true" loop="true">
-    <source src="/assets/images/unflattering/uf17.MP4" type="video/mp4">
-</video>
-
-  ![](/assets/images/unflattering/uf18.jpg)
-  ![](/assets/images/unflattering/uf19.jpg)
-  ![](/assets/images/unflattering/uf20.jpg)
-  ![](/assets/images/unflattering/uf21.jpg)
-  ![](/assets/images/unflattering/uf22.jpg)
-  ![](/assets/images/unflattering/uf23.jpg)
-  ![](/assets/images/unflattering/uf24.jpg)
-  ![](/assets/images/unflattering/uf25.jpg)
-  ![](/assets/images/unflattering/uf26.jpg)
-
+<br>
 <video autoplay="true" muted="true" loop="true">
     <source src="/assets/images/unflattering/uf27.mp4" type="video/mp4">
-  </video>
+</video>
 
-  ![](/assets/images/unflattering/uf28.jpg)
+mubi sleeps a lot too
+{: style="text-align: center"}
 
+*HKG -> HAN*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf14.jpg)
+
+oh you fancy huh
+{: style="text-align: center"}
+
+*Chocolate Hills, Bohol, Philippines*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf18.jpg)
+
+candid
+{: style="text-align: center"}
+
+*Boho Coco Farm, Bohol, Philippines*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf19.jpg)
+
+this is how mubi sees herself all the time lmaoo
+{: style="text-align: center"}
+
+*Taito Game Station Shibuya, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf20.jpg)
+
+taco baeeee
+{: style="text-align: center"}
+
+*Taco Bell Shibuya, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf21.jpg)
+
+same energy as above but for raw fish now
+{: style="text-align: center"}
+
+*Tsukiji Fish Market, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf23.jpg)
+
+renaissance
+{: style="text-align: center"}
+
+*Unknown izakaya in Shinjuku, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf24.jpg)
+trippy
+{: style="text-align: center"}
+
+*teamLab Borderless, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf25.jpg)
+
+mubi obviously doesnt understand a simple ramen vending machine
+{: style="text-align: center"}
+
+*Ichiran Ramen, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf28.jpg)
+
+they just vibin
+{: style="text-align: center"}
+
+*mipig café Harajuku, Tokyo, Japan*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
 <video autoplay="true" muted="true" loop="true">
     <source src="/assets/images/unflattering/uf29.mp4" type="video/mp4">
-  </video>
+</video>
 
-  ![](/assets/images/unflattering/uf30.jpg)
+2 faces more beautiful than the sunset
+{: style="text-align: center"}
+
+*Halong Bay, Vietnam*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
+![](/assets/images/unflattering/uf30.jpg)
+
+absolutely embarrassing
+{: style="text-align: center"}
+
+*Chiang Mai Night Market, Chiang Mai, Thailand*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>
