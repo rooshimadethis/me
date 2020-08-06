@@ -1,8 +1,12 @@
 projects:
   name: projects
-  description: What I've put my time into
+  description: what i've put my time into
   cover: assets/images/writing.jpg
 gallery:
   name: gallery
   description: you'll need good internet for this
   cover: assets/images/gallery.jpg
+soapbox:
+  name: soapbox
+  description: my honest opinions
+  cover: assets/images/soap.jpg

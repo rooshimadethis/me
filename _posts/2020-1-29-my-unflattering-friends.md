@@ -27,7 +27,6 @@ ____
 <video autoplay="true" muted="true" loop="true">
     <source src="/assets/images/unflattering/uf2.mp4" type="video/mp4">
 </video>
-
 goofy pose pictures are even better when not everyone knows
 {: style="text-align: center"}
 
@@ -41,6 +40,15 @@ that splinter was in my finger and it took the surgical skills of mubi to take i
 {: style="text-align: center"}
 
 *Dragon's Back -> Big Wave Beach, Shek O, Hong Kong*
+{: style="text-align: center; font-size: 80%; font-weight: 100; "}
+
+<br>  
+![](/assets/images/studyabroadcover.jpg)
+
+not even unflattering, just some cool people 
+{: style="text-align: center"}
+
+*Outside Seafront restaurant, HKUST, Hong Kong*
 {: style="text-align: center; font-size: 80%; font-weight: 100; "}
 
 <br>
@@ -74,10 +82,10 @@ outfit of the day
 <video autoplay="true" muted="true" loop="true">
     <source src="/assets/images/unflattering/uf9.mp4" type="video/mp4">
 </video>
-  
+
 the resemblance is uncanny
 {: style="text-align: center"}
-  
+
 *Hongdae, Seoul, South Korea*
 {: style="text-align: center; font-size: 80%; font-weight: 100; "}
 
@@ -123,10 +131,10 @@ a LOT of sleeping
 <video autoplay="true" muted="true" loop="true">
     <source src="/assets/images/unflattering/uf16.MP4" type="video/mp4">
 </video>
-  
+
 for some reason mubi looks like this when she sleeps
 {: style="text-align: center"}
-  
+
 *Moalboal -> Oslob, Cebu, Philippines*
 {: style="text-align: center; font-size: 80%; font-weight: 100; "}
 

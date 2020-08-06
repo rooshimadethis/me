@@ -12,7 +12,7 @@ paginate_path: "/blog/page:num/"
 
 
 # Website info
-title: rooooooshi
+title: rooshi
 description:
 cover: assets/images/welcomeheader.gif
 blogcover: assets/images/soap.jpg
@@ -25,7 +25,7 @@ navigation: True # show the navbar links
 subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: rooshipatidar # replace by your username
+twitter: rooooooship # replace by your username
 facebook: rooshipatidar # replace by your username
 
 # Disqus
@@ -66,11 +66,9 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: jasper2
+username: rooshimadethis
+repo: rooshimadethis.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
 
 exclude:
   - assets/css

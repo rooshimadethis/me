@@ -5,6 +5,8 @@
 "bundle exec jekyll serve" to build and serve (leave running)
 "bundle exec jekyll build" to build
 
+Leave CNAME file in the prod directory
+
 "gulp" to compile css (leave running)
 
 _config.yml has the info for each section header
