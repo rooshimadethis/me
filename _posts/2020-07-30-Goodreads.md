@@ -10,7 +10,8 @@ tags: soapbox
 class: post-template
 author: rooshi
 ---
-# the problem with goodreads
+# The Problem with Goodreads
+### By Rooshi Patidar
 
 -----------------------
 

@@ -10,6 +10,9 @@ class: post-template
 subclass: 'post'
 author: rooshi
 ---
+### By Rooshi Patidar
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;I've taken more pictures in my last 4 months abroad than I have the entire rest of my life. 
 

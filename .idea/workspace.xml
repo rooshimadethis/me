@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1957b142-f9a9-45be-adfb-83ac20674d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-1-29-my-unflattering-friends.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-1-29-my-unflattering-friends.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-20-welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-20-welcome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/global.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/built/screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/screen.edited.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/screen.edited.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/syntax.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/syntax.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/built/syntax.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/built/syntax.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,27 +32,32 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectId" id="1WS8M4FKsYzM4j0JXOyNz5o1l8x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.7" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.1.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,18 +83,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,128 +119,43 @@
       <workItem from="1580355980960" duration="9605000" />
       <workItem from="1580410393707" duration="3934000" />
       <workItem from="1580437340607" duration="19137000" />
+      <workItem from="1601914895551" duration="617000" />
+      <workItem from="1606704067868" duration="60000" />
+      <workItem from="1606704198487" duration="34000" />
+      <workItem from="1606704244408" duration="1631000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580437445342">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="448" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606704611123">
+      <screen x="0" y="0" width="1986" height="1152" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580437445342" />
-    <state x="528" y="203" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580356205004">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="448" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1986.1152@0.0.1986.1152" timestamp="1606704611123" />
+    <state width="1965" height="312" key="GridCell.Tab.0.bottom" timestamp="1606715584286">
+      <screen x="0" y="0" width="1986" height="1152" />
     </state>
-    <state x="528" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580356205004" />
-    <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579131641142">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1965" height="312" key="GridCell.Tab.0.bottom/0.0.1986.1152@0.0.1986.1152" timestamp="1606715584286" />
+    <state width="1965" height="312" key="GridCell.Tab.0.center" timestamp="1606715584286">
+      <screen x="0" y="0" width="1986" height="1152" />
     </state>
-    <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1579131641142" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580358249229">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1965" height="312" key="GridCell.Tab.0.center/0.0.1986.1152@0.0.1986.1152" timestamp="1606715584286" />
+    <state width="1965" height="312" key="GridCell.Tab.0.left" timestamp="1606715584286">
+      <screen x="0" y="0" width="1986" height="1152" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580358249229" />
-    <state x="862" y="100" width="581" height="630" key="DiffContextDialog" timestamp="1580439920665">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1965" height="312" key="GridCell.Tab.0.left/0.0.1986.1152@0.0.1986.1152" timestamp="1606715584286" />
+    <state width="1965" height="312" key="GridCell.Tab.0.right" timestamp="1606715584286">
+      <screen x="0" y="0" width="1986" height="1152" />
     </state>
-    <state x="862" y="100" width="581" height="630" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580439920665" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579132008301">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1965" height="312" key="GridCell.Tab.0.right/0.0.1986.1152@0.0.1986.1152" timestamp="1606715584286" />
+    <state x="502" y="221" key="SettingsEditor" timestamp="1606704640835">
+      <screen x="0" y="0" width="1986" height="1152" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579132008300" />
-    <state width="745" height="188" key="GridCell.Tab.0.bottom" timestamp="1580442368938">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580442368938" />
-    <state width="745" height="188" key="GridCell.Tab.0.center" timestamp="1580442368937">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580442368937" />
-    <state width="745" height="188" key="GridCell.Tab.0.left" timestamp="1580442368937">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580442368937" />
-    <state width="745" height="188" key="GridCell.Tab.0.right" timestamp="1580442368938">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580442368938" />
-    <state width="745" height="176" key="GridCell.Tab.1.bottom" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.1.center" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.1.left" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.1.right" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.2.bottom" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.2.center" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.2.left" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.2.right" timestamp="1580440918073">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1580440918073" />
-    <state width="745" height="176" key="GridCell.Tab.3.bottom" timestamp="1580440918074">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
-    <state width="745" height="176" key="GridCell.Tab.3.center" timestamp="1580440918074">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
-    <state width="745" height="176" key="GridCell.Tab.3.left" timestamp="1580440918074">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
-    <state width="745" height="176" key="GridCell.Tab.3.right" timestamp="1580440918074">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="176" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1580440918074" />
-    <state x="950" y="42" key="RollbackChangesDialog" timestamp="1580442398025">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="950" y="42" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580442398025" />
-    <state x="555" y="59" key="SettingsEditor" timestamp="1580439254836">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="555" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580439254836" />
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580243131102">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1580243131102" />
-    <state x="961" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580457998202">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="961" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1580457998202" />
-    <state x="780" y="0" width="640" height="824" key="find.popup" timestamp="1580443734495">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="780" y="0" width="640" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580443734495" />
-    <state x="41" y="190" key="run.anything.popup" timestamp="1579457133604">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="41" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579457133604" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580268145295">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580268145295" />
+    <state x="502" y="221" key="SettingsEditor/0.0.1986.1152@0.0.1986.1152" timestamp="1606704640835" />
   </component>
 </project>

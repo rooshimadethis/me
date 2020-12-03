@@ -10,3 +10,7 @@ soapbox:
   name: soapbox
   description: my honest opinions
   cover: assets/images/soap.jpg
+microblog:
+  name: microblog
+  description: when i have something to say, but no one to say it to
+  cover: assets/images/soap.jpg
