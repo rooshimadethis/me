@@ -1,12 +1,11 @@
 rooshi:
   username: rooshi
   name: Rooshi Patidar
-  location: Could be anywhere! Check the main page for my current info.
+  location: Hiya!
   url_full: http://rooshi.me
   url: rooshi.me
-  bio: I'm here chillin.
+  bio: Could be anywhere! Check the main page for my current info.
   picture: assets/images/profilephoto.jpg
   facebook: rooshipatidar
   twitter: rooshipatidar
   cover: assets/images/authorcover.jpg
-
