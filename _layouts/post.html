@@ -63,6 +63,12 @@ into the {body} of the default.hbs template -->
             {% endif %}
             -->
 
+            {% if page.comments == true %}
+                <section class="comments">
+                    {% include comments.html %}
+                </section>
+            {% endif %}
+
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->

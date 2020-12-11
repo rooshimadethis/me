@@ -9,6 +9,7 @@ date: 2020-12-02 21:31:00
 tags: soapbox
 class: post-template
 author: rooshi
+comments: true
 ---
 # The Problem with Social Media
 ### By Rooshi Patidar

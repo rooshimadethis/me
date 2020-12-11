@@ -9,6 +9,7 @@ tags: gallery
 class: post-template
 subclass: 'post'
 author: rooshi
+comments: true
 ---
 ### By Rooshi Patidar
 

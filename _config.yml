@@ -25,12 +25,31 @@ navigation: True # show the navbar links
 subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: rooooooship # replace by your username
-facebook: rooshipatidar # replace by your username
+#twitter: rooooooship # replace by your username
+#facebook: rooshipatidar # replace by your username
+
+# The URL for the staticman API bridge endpoint
+# You will want to modify some of the values:
+#  ${github-username}: the username of the account with which you publish your blog
+#  ${blog-repo}: the name of your blog repository in github
+#  master: this the branch out of which your blog is published, often master or gh-pages
+#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
+#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
+#
+# for me, this line reads:
+# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
+staticman_url: https://rooshi-me.herokuapp.com/v2/entry/rooshimadethis/me/master/comments
+
+# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
+# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
+# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
+reCaptcha:
+  siteKey: 6Ld9WAEaAAAAAAxwoB5ii-9V5P6b5xJqvi6XXf-Y
+  secret: vPLbEjfUUhEEqJ1lcBUrAjqnMl+5rcfWSyzoD69Eyq8DU9ZG0blf9YQ7+GUlKaooAzd/WXhcWmNHZRp5DZkytn+m7P8R1ijDziSfkJ1fMndEfgVCcOI8LgNSUcC/ypwpPAM2ShKQZBA/FaROJAojIvm7uz34GIwTTKDX8HJu22fYxoWz5tXfFgkn9VWbCSyJG0geJZl0huOE7yHfiY9loSK7yzp35F+91I21EVYanEqBekmdDgDlBV9//r2KAr2riGr5HxnehKT5jR13FJU2AzETtePcufT1YojDOPdntCXcP0i8EHbvjyQGxwfuSBKXiAGYtApMSmxv5EPb5g2eiscclvvfzXxIcvfbA1usiYmCtAhICh5gnvturlamINcBmC0xlx7lpuAUzRCz6ptYwCLVdsKhmK0NWeORkzI8XPaAm5iOPgkhMrNC+/L2xsfXWgKR9zmJozoeQDtHaqM1MtWlTtcjA6yMF4QCmUxg8mgcz15aiBZSZ0RqLA45xscowlkMDGGVShOIl5G4NzeVhXmVFIFlLvAA39uo+0bqhAd1DZCdxxm2kfmJXzMiMtOUpnng50I5PHhCsSIiqsbBy2ZuW3YtDPyjXkAFr0WkntK37FUf0vTI/pY8UmTDKxBdkd3Jw2bfpgfRe1JqTqtJAdTdq8Pa6b+VoLvBxwuOE/Q=
 
 # Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+#disqus: False
+#disqus_shortname: jekyller # replace with your disqus username
 
 # Permalinks
 permalink: /blog/:title
@@ -67,7 +86,7 @@ feed:
 safe: False
 lsi: False
 username: rooshimadethis
-repo: rooshimadethis.github.io
+repository: rooshimadethis/me
 branch: master
 
 exclude:
