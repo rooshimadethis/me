@@ -9,6 +9,7 @@ date: 2020-07-30 10:00:00
 tags: soapbox
 class: post-template
 author: rooshi
+comments: true
 ---
 # The Problem with Goodreads
 ### By Rooshi Patidar
