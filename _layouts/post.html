@@ -62,6 +62,11 @@ into the {body} of the default.hbs template -->
                 </section>
             {% endif %}
             -->
+            {% if page.comments == true %}
+                <section class="comments">
+                    {% include comments.html %}
+                </section>
+            {% endif %}
 
             {% if page.comments == true %}
                 <section class="comments">
