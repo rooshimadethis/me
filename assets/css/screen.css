@@ -1778,6 +1778,7 @@ button:hover {
     overflow: hidden;
     position: relative;
 }
+/*
 .show-modal:before {
     position: absolute;
     content: '';
@@ -1788,6 +1789,7 @@ button:hover {
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.85);
 }
+*/
 .show-modal .modal {
     display: block;
 }
