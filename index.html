@@ -3,6 +3,8 @@ layout: default
 current: home
 class: 'home-template'
 navigation: True
+comments: True
+slug: welcome
 ---
 
 <!-- < default -->
@@ -40,6 +42,13 @@ into the {body} of the default.hbs template -->
                         <div class="home-kg-card-markdown">
                             {{ post.content }}
                         </div>
+                    </section>
+                    <section>
+                        {% if page.comments == true %}
+                <section class="comments">
+                    {% include comments.html %}
+                </section>
+            {% endif %}
                     </section>
 
         </article>
