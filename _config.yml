@@ -14,11 +14,11 @@ paginate_path: "/blog/page:num/"
 # Website info
 title: rooshi
 description:
-cover: assets/images/welcomeheader.gif
+cover: assets/images/Welcomeheader.gif
 blogcover: assets/images/soap.jpg
-logo: assets/images/profile.gif
+logo: assets/images/Welcome.gif
 logo_dark: assets/images/favicon.png
-favicon: assets/images/profile.gif
+favicon: assets/images/Welcome.gif
 
 # Social info
 navigation: True # show the navbar links
