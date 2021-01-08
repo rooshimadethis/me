@@ -71,6 +71,9 @@
       if ( ! comm || ! respond || ! cancel || ! parentuidF || ! commentForm ) {
         return;
       }
+
+      console.log('moveForm')
+      commentForm.style.display = 'block'
   
       t.respondId = respondId;
       postId = postId || false;
@@ -100,6 +103,7 @@
   
         t.I( 'comment-replying-to-uid' ).value = null;
         temp.parentNode.insertBefore( respond, temp );  //move the comment form to its original location
+        commentForm.style.display = 'none'
         temp.parentNode.removeChild( temp );            //remove the bookmark div
         this.style.display = 'none';                    //make the cancel link invisible
         this.onclick = null;                            //retire the onclick handler
@@ -147,6 +151,9 @@
       } catch( er ) {}
   
       return false;
+    },
+    hideForm: function() {
+      console.log("hide");
     },
   
     I: function( id ) {
