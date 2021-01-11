@@ -14,7 +14,7 @@ paginate_path: "/blog/page:num/"
 # Website info
 title: rooshi
 description:
-cover: assets/images/Welcomeheader.gif
+cover: assets/images/welcomeheader.gif
 blogcover: assets/images/soap.jpg
 logo: assets/images/Welcome.gif
 logo_dark: assets/images/favicon.png
