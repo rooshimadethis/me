@@ -15,10 +15,10 @@ comments: true
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;I've taken more pictures in my last 4 months abroad than I have the entire rest of my life. 
+I've taken more pictures in my last 4 months abroad than I have the entire rest of my life. 
 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;So many great memories that will be forgotten about or shared to a select group chat, but never posted to social media. It's a shame that only the top 1% of 1% of photos get chosen for that honor, but that's the way social media is. Therefore, here, in the most anti-social media platform possible, Rooshi's Blog, I will post unflattering pictures of the people I love and the memories I will never forget.
+So many great memories that will be forgotten about or shared to a select group chat, but never posted to social media. It's a shame that only the top 1% of 1% of photos get chosen for that honor, but that's the way social media is. Therefore, here, in the most anti-social media platform possible, Rooshi's Blog, I will post unflattering pictures of the people I love and the memories I will never forget.
 
 <br>
 (One thing though, I realized I love "live photos" because they really give you a sense of the vibe, so there are going to be a lot of gifs on this page.)

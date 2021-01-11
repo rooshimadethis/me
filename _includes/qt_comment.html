@@ -3,13 +3,13 @@
 <article id="{{ comment_id }}" class="{{ article_class }}" uid="{{ include.uid }}">
 
   <div class="comment__author">
-    <img class="author-profile-image" src="{{ site.baseurl }}assets/images/Welcome.gif" alt="{{ author[1].name }}" />
+    <img style="display: inline; margin: 0em;" class="qt-author-profile-image" src="{{ site.baseurl }}assets/images/Welcome.gif" alt="{{ author[1].name }}" />
 
-    {{- include.name | strip_html -}},
+    @{{- include.name | strip_html -}},
     <span class="comment__date">
       {%- if include.date -%}
         <a href="#{{ comment_id}}" title="Permalink to this comment">
-        {{- include.date | date:"%B %eth, %Y %H:%M" -}}
+        {{- include.date | date:"%B %e, %Y %I:%M %p" -}}
         </a>
       {%- endif -%}
     </span>
@@ -37,7 +37,7 @@
     {%- assign date        = reply.date -%}
     {%- assign message     = reply.message -%}
     {%- assign uid         = reply._id -%}
-    {% include comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
+    {% include qt_comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
   {% endfor %}
 
   <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
