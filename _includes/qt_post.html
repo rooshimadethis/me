@@ -2,8 +2,13 @@
 {% assign comment_id = include.uid | prepend: 'comment-' %}
 <article id="{{ comment_id }}" class="{{ article_class }}" uid="{{ include.uid }}">
 
+  {% if include.name == page.author %}
   <div class="comment__author">
     <img style="display: inline; margin: 0em;" class="qt-author-profile-image" src="{{ site.baseurl }}assets/images/headshot.jpg" alt="{{ author[1].name }}" />
+    {% else %}
+    <div class="comment__author">
+      <img style="display: inline; margin: 0em;" class="qt-author-profile-image" src="{{ site.baseurl }}assets/images/anon.png" alt="{{ author[1].name }}" />  
+    {% endif %}
 
     @{{- include.name | strip_html -}},
     <span class="comment__date">
@@ -37,7 +42,7 @@
     {%- assign date        = reply.date -%}
     {%- assign message     = reply.message -%}
     {%- assign uid         = reply._id -%}
-    {% include comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
+    {% include qt_post.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
   {% endfor %}
 
   <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">

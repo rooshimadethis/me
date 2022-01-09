@@ -19,6 +19,7 @@ blogcover: assets/images/soap.jpg
 logo: assets/images/grad.jpg
 logo_dark: assets/images/favicon.png
 favicon: assets/images/Welcome.gif
+author: rooshi
 
 collections:
   - qts

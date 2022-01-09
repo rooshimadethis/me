@@ -1,6 +1,6 @@
 <section class="comments" id="comment-section">
     <hr>
-    {% for item in site.qts %}
+    {% for item in site.qts reversed %}
       {% include qt_post.html is_reply=false uid=item._id email=item.email name=item.name url=item.url date=item.commentdate message=item.content %}
     {% endfor %}
 
