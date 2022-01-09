@@ -14,7 +14,7 @@
     <span class="comment__date">
       {%- if include.date -%}
         <a href="#{{ comment_id}}" title="Permalink to this comment">
-        {{- include.date | date:"%B %eth, %Y %H:%M" -}}
+        {{- include.date | pretty -}}
         </a>
       {%- endif -%}
     </span>
