@@ -38,10 +38,20 @@ into the {body} of the default.hbs template -->
             </figure>
             {% endif %}
 
+            {% comment %}
+            <!-- original quickthoughts --->
             {% if page.comments == true %}
                 <section class="comments post-full-content">
                     <h3 class="post-full-title">A conceited, Twitter-like experience 🐦</h1>
-                    {% include qt_comments.html %}
+                    {% include remove_qt_comments.html %}
+                </section>
+            {% endif %}
+            {% endcomment %}
+
+            {% if page.comments == true %}
+                <section class="comments post-full-content">
+                    <h3 class="post-full-title">A conceited, Twitter-like experience 🐦</h1>
+                {% include qt_comments.html %}
                 </section>
             {% endif %}
 

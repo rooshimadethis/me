@@ -20,6 +20,10 @@ logo: assets/images/grad.jpg
 logo_dark: assets/images/favicon.png
 favicon: assets/images/Welcome.gif
 
+collections:
+  - qts
+
+
 # Social info
 navigation: True # show the navbar links
 subscribers: False # you need to connect an external service for this to work,
