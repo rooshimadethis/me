@@ -1783,6 +1783,7 @@ button:hover {
     border-top: 0px solid color(var(--lightgrey) l(-5%));
     padding: 0px 0px 0px 0px;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 .comment.child {
     margin-left: 3em;
